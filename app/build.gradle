@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.liuhong.tower'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.liuhong.tower"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        ci {
+            storeFile file('tower.keystore')
+            storePassword 'tower2026'
+            keyAlias 'tower'
+            keyPassword 'tower2026'
+            storeType 'PKCS12'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.ci
+        }
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.ci
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
