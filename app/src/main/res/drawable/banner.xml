@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- 天空 -->
+    <path android:fillColor="#0D47A1" android:pathData="M0,0h320v180h-320z" />
+    <path android:fillColor="#1976D2" android:pathData="M0,110h320v70h-320z" />
+    <!-- 太阳 -->
+    <path android:fillColor="#FFF59D" android:pathData="M270,28 m-16,0 a16,16 0 1,1 32,0 a16,16 0 1,1 -32,0" />
+    <!-- 远景楼群 -->
+    <path android:fillColor="#5C6BC0" android:pathData="M10,120 h26 v60 h-26 z M44,104 h22 v76 h-22 z M250,112 h24 v68 h-24 z M282,96 h22 v84 h-22 z" />
+    <!-- 主塔（三层收分 + 塔尖） -->
+    <path android:fillColor="#FB8C00" android:pathData="M118,180 v-44 h84 v44 z" />
+    <path android:fillColor="#FFA726" android:pathData="M126,136 v-40 h68 v40 z" />
+    <path android:fillColor="#FFB74D" android:pathData="M134,96 v-36 h52 v36 z" />
+    <path android:fillColor="#FFD54F" android:pathData="M156,60 l-8,-14 h16 z" />
+    <!-- 塔窗 -->
+    <path android:fillColor="#37474F" android:pathData="M128,148 h10 v10 h-10 z M146,148 h10 v10 h-10 z M164,148 h10 v10 h-10 z M182,148 h10 v10 h-10 z
+        M136,112 h10 v10 h-10 z M154,112 h10 v10 h-10 z M172,112 h10 v10 h-10 z
+        M144,76 h10 v10 h-10 z M162,76 h10 v10 h-10 z" />
+    <!-- 吊钩 -->
+    <path android:strokeColor="#ECEFF1" android:strokeWidth="3" android:pathData="M60,0 L60,52" />
+    <path android:fillColor="#ECEFF1" android:pathData="M54,52 h12 v10 h-12 z" />
+    <path android:fillColor="#FB8C00" android:pathData="M52,62 h16 v10 h-16 z" />
+</vector>
